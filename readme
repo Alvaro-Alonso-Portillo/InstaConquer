@@ -24,7 +24,7 @@ InstaConquer es una aplicación web que ofrece las siguientes funcionalidades:
 
 1. Clona el repositorio:
     ```bash
-    git clone https://github.com/usuario/instaconquer.git
+    git clone https://github.com/Alvaro-Alonso-Portillo/instaconquer.git
     cd instaconquer
     ```
 
