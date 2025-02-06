@@ -59,25 +59,37 @@ InstaConquer es una aplicación web que ofrece las siguientes funcionalidades:
 ## Modelos
 ### Usuario
 -Nombre de usuario
+
 -Correo electrónico
+
 -Contraseña
+
 -Foto de perfil
+
 -Biografía
 
 ### Publicación
 -Imagen
+
 -Descripción
+
 -Fecha de publicación
+
 -Autor (relación ForeignKey con el modelo Usuario)
 
 ### Comentario
 -Texto
+
 -Fecha de publicación
+
 -Autor (relación ForeignKey con el modelo Usuario)
+
 -Publicación (relación ForeignKey con el modelo Publicación)
+
 
 ## Contribuciones
 Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
+
 -Haz un fork del repositorio.
 
 -Crea una rama nueva (git checkout -b feature/nueva-funcionalidad).
