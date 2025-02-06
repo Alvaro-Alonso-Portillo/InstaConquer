@@ -58,51 +58,37 @@ InstaConquer es una aplicación web que ofrece las siguientes funcionalidades:
 
 ## Modelos
 ### Usuario
-Nombre de usuario
-
-Correo electrónico
-
-Contraseña
-
-Foto de perfil
-
-Biografía
+-Nombre de usuario
+-Correo electrónico
+-Contraseña
+-Foto de perfil
+-Biografía
 
 ### Publicación
-Imagen
-
-Descripción
-
-Fecha de publicación
-
-Autor (relación ForeignKey con el modelo Usuario)
+-Imagen
+-Descripción
+-Fecha de publicación
+-Autor (relación ForeignKey con el modelo Usuario)
 
 ### Comentario
-Texto
-
-Fecha de publicación
-
-Autor (relación ForeignKey con el modelo Usuario)
-
-Publicación (relación ForeignKey con el modelo Publicación)
+-Texto
+-Fecha de publicación
+-Autor (relación ForeignKey con el modelo Usuario)
+-Publicación (relación ForeignKey con el modelo Publicación)
 
 ## Contribuciones
 Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
+-Haz un fork del repositorio.
 
-Haz un fork del repositorio.
+-Crea una rama nueva (git checkout -b feature/nueva-funcionalidad).
 
-Crea una rama nueva (git checkout -b feature/nueva-funcionalidad).
+-Realiza tus cambios y haz commit (git commit -am 'Añadir nueva funcionalidad').
 
-Realiza tus cambios y haz commit (git commit -am 'Añadir nueva funcionalidad').
+-Sube los cambios a tu fork (git push origin feature/nueva-funcionalidad).
 
-Sube los cambios a tu fork (git push origin feature/nueva-funcionalidad).
-
-Abre un pull request en GitHub.
+-Abre un pull request en GitHub.
 
 ## Agradecimientos
 Quiero agradecer a ConquerBlocks por su apoyo y guía durante el desarrollo de este proyecto. Su dedicación y recursos han sido fundamentales para nuestro aprendizaje y éxito.
-
-## Licencia
-Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
 
 
